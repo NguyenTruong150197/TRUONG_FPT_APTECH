@@ -23,8 +23,18 @@ int main(){
 	scanf("%f", &c);
 	
 	if(a == 0){
-		x = (-c)/b;
-		printf("Phuong trinh bac mot co nghiem la x = %f", x);	
+		if(b == 0){
+			if(c == 0){
+				printf("Phuong trinh co vo so nghiem");
+			}
+			else{
+				printf("Phuong trinh vo nghiem");
+			}
+		}
+		else{
+			x = (-c)/b;
+			printf("Phuong trinh có nghiem x = %f", x);
+		}
 	}
 	else{
 		d = b*b - 4*a*c;
@@ -37,8 +47,8 @@ int main(){
 				printf("Phuong trinh co nghiem kep x1 = x2 = %f", x1);
 			}
 			else{
-				x1 = (-b + sqrt(d))/a;
-				x2 = (-b - sqrt(d))/a;
+				x1 = (-b + sqrt(d))/(2*a);
+				x2 = (-b - sqrt(d))/(2*a);
 				printf("Phuong trinh co 2 nghiem: \n");
 				printf("x1 = %f \n", x1);
 				printf("x2 = %f", x2);
