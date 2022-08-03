@@ -5,17 +5,23 @@ int main(){
 	
 	printf("Nhap 3 so vao: \n");
 	printf("a = ");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	printf("b = ");
-	scanf("%d", &b);
+	scanf("%f", &b);
 	printf("c = ");
-	scanf("%d", &c);
+	scanf("%f", &c);
 	
 	if(b > Max){
 		Max = b;
+		if(c > Max){
+			Max = c;
+			printf("So lon nhat trong 3 so vua nhap la: %f", Max);
+		}
+		else{
+			printf("So lon nhat trong 3 so vua nhap la: %f", Max);
+		}
 	}
-	if(c > Max){
-		Max = c;
+	else{
+		printf("So lon nhat trong 3 so vua nhap la: %f", Max);
 	}
-	printf("So lon nhat trong 3 so vua nhap la: %d", Max);
 }
