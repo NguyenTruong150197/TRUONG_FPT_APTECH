@@ -1,0 +1,8 @@
+font-weight: 100 lighter
+		 300 light
+		 400 normal
+		 500 medium
+		 600 semi-bold
+		 700 bold
+		 800 bolder
+		 900 black

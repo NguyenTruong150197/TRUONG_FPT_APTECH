@@ -1,0 +1,5 @@
+Theo bạn, tại sao khi xây dựng website, chúng ta cần phải xây dựng layout (khung) cho website trước?
+
+1. Sự đồng bộ trong 1 website
+2. Từ sự đồng bộ tận dụng css - html
+3. Dễ dàng mở rộng nội dung của website

@@ -1,0 +1,11 @@
+1 phần tử thông thường có dạng:
+<thẻ:> Nội dung </thẻ>
+
+Trong phần nội dung có thể là 1 hoặc nhiều phần tử khác
+
+<b></b>: in đậm
+<i></i>: in nghiêng
+<u></u>: gạch chân
+<a href = "link web nào đó" target = "_blank"></a>: gắn link nào đó vào và khi ấn vào sẽ mở trang web bằng 1 tab mới
+<sup></sup>: Nổi chữ lên đầu
+<sub></sub>: Chìm chữ xuống chân
